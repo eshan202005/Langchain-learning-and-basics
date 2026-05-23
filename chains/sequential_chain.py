@@ -25,5 +25,3 @@ chain= prompt1 | structured_model1 | prompt2 | structured_model2
 result=chain.invoke({"topic": "The impact of AI on the job market"})
 
 print(result)
-
-chain.get_graph().print_ascii()
