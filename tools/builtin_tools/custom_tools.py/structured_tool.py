@@ -12,6 +12,6 @@ def multiply(a: int, b: int) -> int:
 
 tool = StructuredTool.from_function(
     func=multiply,
-    input_schema=MultiplyInput,
+    args_schema=MultiplyInput,
     name="multiply",
     description="Multiplies two numbers together.")
